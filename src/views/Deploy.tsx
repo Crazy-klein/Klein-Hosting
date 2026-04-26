@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { Reveal } from '../components/Animations';
-import { Rocket, Github, FileArchive, Layers, Plus, Terminal } from 'lucide-react';
+import { Rocket, Github, FileArchive, Layers, Plus, Terminal, RefreshCcw } from 'lucide-react';
 
 export const Deploy = () => {
   const { user, token } = useAuth();
